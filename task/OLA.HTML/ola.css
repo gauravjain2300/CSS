@@ -46,7 +46,22 @@ text-align: center;}
     padding-top: 200px;
     
 }
+.with{color: white;
+font-size: 25px;}
+.box1{height: 150px;
+    width: 150px;
+     background-color: rgb(32, 31, 33); 
+    color: white;
+    border: solid;}
+    .box2{height: 150px;
+        width: 150px;
+         background-color: rgb(32, 31, 33); 
+        color: white;
+        border: solid;}
+        .box3{height: 150px;
+            width: 150px;
+             background-color: rgb(32, 31, 33); 
+            color: white;
+            border: solid;}
 
 
-{position: sticky;
-    display:top ;}
