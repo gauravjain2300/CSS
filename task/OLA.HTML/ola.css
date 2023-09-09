@@ -1,0 +1,52 @@
+
+/* *{box-sizing: border-box; */
+/* margin: 0px; */
+/* padding: 0px;} */
+
+
+.class{height: 900px;}
+
+.Global{
+    font-size: 50px;
+    text-align: center;
+     text-shadow: 1px 0px 1px green 
+}
+.images{display: flex;
+    padding-left: 600px;
+    gap: 100px;
+}
+
+ .cities{ 
+/* width:100%;  */
+/* padding-left: 300px; */
+gap: 20px; 
+}
+.text{font-size: 40px;
+text-align: center;
+
+}
+.India{font-size: 20px;
+text-align: center;} 
+
+.color{
+    background-color: black;
+    height: 1500px;
+    /* color: white; */
+    /* font-size: 50px; */
+    /* text-shadow: 1px 0px 1px lawngreen; */
+    /* padding-top: 200px; */
+    /* text-align: center; */
+    padding-left: 300px;
+
+}
+.ola{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 0px 1px lawngreen;
+    padding-top: 200px;
+    
+}
+
+
+{position: sticky;
+    display:top ;}

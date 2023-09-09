@@ -300,14 +300,20 @@ border-image-repeat{height: 200px;
             color: aquamarine;
             border-: rgb(29, 27, 27);
             border: 10px dotted;
-            writing-mode: horizontal-tb;}
-.border-image-source{height: 200px;
+            writing-mode: horizontal-tb;
+        border-image-slice:fill;
+    /* border-image: url(../images/uber.1.webp); */
+background-image: url(../images/uber3.svg);} 
+
+
+            .border-image-source{height: 200px;
             width: 200px;
             background-color: rgb(255, 127, 189);
             color: aquamarine;
             border-: rgb(29, 27, 27);
             border: 10px dotted;
-            writing-mode: horizontal-tb;}
+            writing-mode: horizontal-tb;
+            border-image-source:url(../images/uber7.webp)}
 .border-image-width{height: 200px;
             width: 200px;
             background-color: rgb(255, 127, 189);
@@ -557,11 +563,14 @@ border-image-repeat{height: 200px;
             writing-mode: horizontal-tb;} 
 .bottom{height: 200px;
             width: 200px;
-            background-color: rgb(255, 127, 189);
+            background-color: rgb(53, 31, 42);
             color: aquamarine;
             border-: rgb(29, 27, 27);
             border: 10px dotted;
-            writing-mode: horizontal-tb;} 
+
+            
+            bottom:500px;
+        } 
            
 
 
@@ -581,10 +590,10 @@ border-image-repeat{height: 200px;
     
     <td><div class="border-ridge"> border ridge </div> </td>
     
-   <td> <div class="border-block-color">border-block-color</div> </td>
+   <td> <div class="border-block-color">border-block-color</div> </td></tr>
 
-    <td><div class="border-block-end">border-block-end</div></td>
-    </tr>
+    
+    
    <tr> <td><div class="border-block-end-color">border-block-end-color</div></td>
     <td><div class="border-block-end-style">border-block-end-style</div></td>
 
@@ -614,42 +623,44 @@ border-image-repeat{height: 200px;
     <td> <div class="border-image"> border-image</div> </td>
     <td> <div class="border-image-outset">border-image-outset</div> </td>
     <td> <div class="border-image-repeat">border-image-repeat</div> </td>
-    <td> <div>border-image-slice</div> </td>
-    <td> <div> border-image-source</div> </td>
-    <td> <div> border-image-width</div> </td>          
-    <td> <div> border-inline</div> </td></tr>
-    <td> <div>border-inline-color</div> </td>
-    <td> <div>border-inline-end</div> </td>
-    <td> <div>border-inline-end-color</div> </td>
-    <td> <div>border-inline-end-style</div> </td>
-    <td> <div>border-inline-end-width</div> </td>
-    <td> <div>  border-inline-start</div> </td>
-    <td> <div>border-inline-start-color</div> </td>
-    <td> <div>border-inline-start-style</div> </td>
-    <td> <div> border-inline-start-width</div> </td>
-    <td> <div> border-inline-style</div> </td>
-    <td> <div>border-inline-width</div> </td>
-    <td> <div>border-left</div> </td></div> </td>
-    <td> <div>  border-left-color</div> </td>
-    <td> <div>  border-left-style</div> </td>
-    <td> <div> border-left-width</div> </td>
-    <td> <div> border-radius</div> </td>
-    <td> <div>border-right</div> </td>
-    <td> <div> border-right-color</div> </td>
-    <td> <div> border-right-style</div> </td>
-    <td> <div> border-right-width</div> </td>
-    <td> <div> border-spacing</div> </td>
-    <td> <div> border-start-end-radius</div> </td>
-    <td> <div> border-start-start-radius</div> </td>
-    <td> <div> border-style</div> </td>
-    <td> <div> border-top</div> </td>
-    <td> <div> border-top-color</div> </td>
-    <td> <div> border-top-left-radius</div> </td>
-    <td> <div> border-top-right-radius</div> </td>
-    <td> <div>  border-top-style</div> </td>
-    <td> <div> border-top-width</div> </td>
-    <td> <div>  border-width</div> </td>
-    <td> <div>  bottom</div> </td>
+    <td> <div class="border-image-slice">border-image-slice</div> </td>
+    <td> <div class="border-image-source"> border-image-source</div> </td>
+   </tr>
+    <tr><td> <div class=" border-image-width"> border-image-width</div> </td>          
+    <td> <div class="border-inline"> border-inline</div> </td>
+    <td> <div class="border-inline-color">border-inline-color</div> </td>
+    <td> <div class="border-inline-end">border-inline-end</div> </td>
+    <td> <div class="border-inline-end-color">border-inline-end-color</div> </td>
+    <td> <div class="border-inline-end-style">border-inline-end-style</div> </td></tr>
+   <tr> <td> <div class="border-inline-end-width">border-inline-end-width</div> </td>
+    <td> <div class="border-inline-start">  border-inline-start</div> </td>
+    <td> <div class="border-inline-start-color">border-inline-start-color</div> </td>
+    <td> <div class="border-inline-start-style">border-inline-start-style</div> </td>
+    <td> <div class=" border-inline-start-width"> border-inline-start-width</div> </td>
+    <td> <div class="border-inline-style"> border-inline-style</div> </td></tr>
+    <tr><td> <div class="border-inline-width">border-inline-width</div> </td>
+    <td> <div class="border-left">border-left</div> </td></div> </td>
+    <td> <div class="border-left-color">  border-left-color</div> </td>
+    <td> <div class="border-left-style">  border-left-style</div> </td>
+    <td> <div class=" border-left-width"> border-left-width</div> </td>
+    <td> <div class=" border-radius"> border-radius</div> </td></tr>
+  <tr> <td> <div class="border-right">border-right</div> </td>
+    <td> <div class="border-right-color"> border-right-color</div> </td>
+    <td> <div class="border-right-style"> border-right-style</div> </td>
+    <td> <div class="border-right-width"> border-right-width</div> </td>
+    <td> <div class="border-spacing"> border-spacing</div> </td>
+    <td> <div class="border-start-end-radius"> border-start-end-radius</div> </td></tr> 
+    <tr><td> <div class="border-start-start-radius" > border-start-start-radius</div> </td>
+    <td> <div class=" border-style"> border-style</div> </td>
+    <td> <div class=" border-top">  border-top</div> </td>
+    <td> <div class="border-top-color"> border-top-color</div> </td>
+    <td> <div class="border-top-left-radius"> border-top-left-radius</div> </td>
+    <td> <div class="border-top-right-radius"> border-top-right-radius</div> </td> </tr>
+    <td> <div class="border-top-style">  border-top-style</div> </td>
+    <td> <div class="border-top-width"> border-top-width</div> </td>
+    <td> <div class="border-width">  border-width</div> </td>
+    <td> <div class="bottom">bottom</div> </td>
+    <td><div class="border-block-end">border-block-end</div></td>
   
    
 
