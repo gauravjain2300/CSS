@@ -7,7 +7,7 @@
     <style>
 
 *{box-sizing: border-box; */
- margin: 0px; 
+  margin: 0px;  
  padding: 0px;}
  
  .first{background-image: url(../../images/hero-banner.webp);
@@ -16,6 +16,8 @@ background-position: center;
 /* padding-top: 500px;  */
 padding-left:300px;
 background-repeat: no-repeat;
+height: 350px;
+position: relative;
 
 }
 .table{
@@ -29,12 +31,14 @@ background-repeat: no-repeat;
 }
 
 .word{color: white;
-/* margin-top:200px; */
+    padding-top: 100px;
+margin-bottom:0px;
 font-size: 60px;}
 .input{ background-color:rgba(240, 248, 255, 0.966) ;
 height: 100px;
 width: 1000px;
 /* margin-top: 100px; */
+margin: 0;
 }
         .place{height: 50px;
         width: 300px;
@@ -45,37 +49,46 @@ margin-left: 20px   ;
 .cabs{
     background-color: black;
     color: lime;                                                            
-    border: 1px lime;
+    border: 3px  solid;
     height: 50px;
     width: 300px;
     margin-top: 20px;
 /* position: ; */
 margin-left: 20px   ;
-
+/* outline: lime; */
 }
+
+.xyz{width: 1000PX; position: absolute;
+    top: 67%;
+    margin: 0 auto;
+}
+.input{position: static;}
     </style>
 
 
 </head>
 <body>
-    <div class="first"><div><p class="word">Moving people, <br> and the word</p>
-       <div> <table class="table"> 
+    <div class="first"><H1 class="word">Moving people, <br> and the word</H1>
+       <div class="xyz"> <table class="table"> 
             
             <tr ><td>Daily</td>
            <td>Rental</td>
            <td>out</td></tr>
    
        </table>
-    </div>
     
-   </div>
+    
+ 
    <div class="input">
-       <input type="text" placeholder="current location" class="place">
+       <input type="text" placeholder="Current location" class="place">
        <input type="text" placeholder="Enter destination" class="place">
        <input type="text" placeholder="search ola cabs" class="cabs">
    </form></div>
-      </div>
    
-     <div class="input"><img src="../../images/whatsappimg12.jpeg" alt="" ></div>
+   
+     <div class="input"><img src="../../images/whatsappimg12.jpeg" alt=""  width="100%"></div>
+   </div>
+    </div>
+</div>
 </body>
 </html>
