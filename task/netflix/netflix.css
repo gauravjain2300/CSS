@@ -1,0 +1,48 @@
+
+
+*{box-sizing: border-box; 
+    margin: 0px; 
+    padding: 0px;}
+    
+    .gj{background-image: url(../../images/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: transparent;
+}
+img{height: 50px;
+padding-left: 150px;
+display: flex;
+
+/* /* margin-bottom: 700px;  */
+margin-top: 30px;}
+
+.default-ltr-cache-1qwdmuy {
+    /* clip: rect(0 0 0 0); */
+    /* -webkit-clip-path: inset(50%); */
+    /* clip-path: inset(50%); */
+    /* height: 1px; */
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+     width: 1px; 
+}
+    nav{color: rgb(37, 7, 7);
+         /* width: 20%; */
+
+         background-color:transparent;}
+         .row{display: flex;
+        margin-top: 30px;
+    align-items:end;
+align-items:flex-end;
+/* gap: 700PX; */
+         }
+         .gaurav{
+            padding-left:800px;
+            margin-bottom: 20px;
+            background-color: transparent;
+         }
+         button span{
+            background-color: red;
+            color: red;
+         }
