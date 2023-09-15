@@ -10,9 +10,10 @@ background-size: cover;
 background-position: center;
 color: transparent;
 }
-img{height: 50px;
-padding-left: 150px;
+.image{height: 50px;
+padding-left: 80px;
 display: flex;
+
 
 /* /* margin-bottom: 700px;  */
 margin-top: 30px;}
@@ -30,19 +31,118 @@ margin-top: 30px;}
     nav{color: rgb(37, 7, 7);
          /* width: 20%; */
 
-         background-color:transparent;}
+         /* background-color:transparent;   */}
          .row{display: flex;
-        margin-top: 30px;
-    align-items:end;
-align-items:flex-end;
+        /* margin-top: 30px; */
+        justify-content: space-between;
+ align-items: center;
+ /* padding-right: 150px; */
 /* gap: 700PX; */
          }
          .gaurav{
             padding-left:800px;
             margin-bottom: 20px;
             background-color: transparent;
+            width: 50px;
          }
-         button span{
+     /* button{ 
             background-color: red;
             color: red;
-         }
+         /* } */
+          div p{
+            color: white;
+            font-size: 50px;
+            margin-top: 200px;
+            text-align: center
+          }
+          .join{
+            text-align: center;
+            font-size: 25px;
+             margin-top: 5px; 
+          }
+          .joi{margin-top: 20px
+            ;
+          font-size:25px ;
+        color:floralwhite;}
+          .red{background-color: red;
+        color: white;
+    width: 70px;
+display: flex;
+}
+/* .row{display: flex;} */
+/* .flex{display: flex; */
+    .flex
+    {
+        width: 80%;
+        padding: 10px;
+        margin:  0 auto;
+    }
+    select{
+width: 100px;
+text-align: center;
+/* background: transparent; */
+border:1px black;
+
+height: 25px;
+width: 100px;
+color: white;
+border-radius: 5px;
+gap: 10px; }
+
+button{
+  background-color: red;
+  width: 65px;
+  height: 35px;
+  border-radius: 7px;
+  gap: 20px;
+  color: white;
+/* margin-right: 50px; */
+}
+.email{height: 50px;
+width: 300px;
+align-items: center;
+background-color: rgba(22, 22, 22, 0.596);
+border-radius: 5px;
+margin-top: 20px;
+margin-left: 315px;
+}
+.get{
+  height: 50px;
+  height: 50px;
+width: 200px;
+font-size: 25px;
+}
+.black{
+  background-color: black;
+  color: white;
+}
+
+.xyz{
+  color: white;
+  font-size: 20px;
+  padding-right: 800px;
+  padding-bottom: 10px;
+}
+span{
+  
+ 
+  /* padding-left: 300px; */
+   margin-top: 100px; 
+  /* padding-top: 100px; */
+}
+.TV{
+  /* margin-top: 50px; */
+  padding-top: 200px;
+  padding-left: 300px;
+   display: flex; 
+}
+div span{
+  padding-top: 500px;
+  margin-top: 30px;
+}
+.vid{width: 100%;
+/* height: 300px; */
+padding-bottom: 200px;
+padding-bottom: 30px;}
+.ENJOY{padding-bottom: 40px;
+padding-top: 80px;}
