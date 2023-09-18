@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo Element Selector</title>
+    <style>
+      h1::before{
+          content: "Before ";
+          background-color: crimson;
+          color: aliceblue;
+      }
+      h1::after{
+          content: " After";
+          background-color: rgb(116, 135, 135);
+          color: rgb(234, 233, 228);
+      }
+      p::first-letter{
+        background-color: purple;
+        color: aliceblue;
+        font-size: 80px;
+      }
+      p::first-line{
+        background-color: crimson;
+        color: aliceblue;
+        font-size: 30px;
+      }
+      p::selection{
+        background-color: khaki;
+        color: teal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Psuedo Element Selector(::)</h1>
+    <p>
+      GBBHJNBNBJKBJKBJKBKJBKLNLKNKLLJNBKCSNKASNCKASNCNAKSCNAKCNKANCKACKNASKN FMA VMA VMA VM FJAFKA
+    </p>
+  </body>
+</html>

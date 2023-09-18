@@ -10,6 +10,7 @@ background-size: cover;
 background-position: center;
 color: transparent;
 }
+
 .image{height: 50px;
 padding-left: 80px;
 display: flex;
@@ -99,12 +100,12 @@ button{
 /* margin-right: 50px; */
 }
 .email{height: 50px;
-width: 300px;
+width: 450px;
 align-items: center;
 background-color: rgba(22, 22, 22, 0.596);
 border-radius: 5px;
 margin-top: 20px;
-margin-left: 315px;
+margin-left: 240px;
 }
 .get{
   height: 50px;
@@ -112,10 +113,7 @@ margin-left: 315px;
 width: 200px;
 font-size: 25px;
 }
-.black{
-  background-color: black;
-  color: white;
-}
+
 
 .xyz{
   color: white;
@@ -132,17 +130,34 @@ span{
 }
 .TV{
   /* margin-top: 50px; */
-  padding-top: 200px;
-  padding-left: 300px;
-   display: flex; 
+  background-color: black;
+  color: white;
+  padding-top: 150px;
+  padding-left: 200px;
+  
+    display: flex;  
 }
 div span{
-  padding-top: 500px;
-  margin-top: 30px;
+  padding-top: 200px;
+  margin-top: 20px;
+  font-size: 25px;
+  
+  padding-right: 10px;
 }
-.vid{width: 100%;
-/* height: 300px; */
-padding-bottom: 200px;
-padding-bottom: 30px;}
+
+
 .ENJOY{padding-bottom: 40px;
-padding-top: 80px;}
+ padding-top: 150px; 
+padding-bottom: 20px;
+/* width: 50%; */}
+
+.your{
+  font-size: 50px;
+  /* margin-top: 0px; */
+  /* margin-bottom: 300px; */
+}
+/* {
+  padding-bottom: 150px;
+  margin-bottom: 300px;
+} */  
+

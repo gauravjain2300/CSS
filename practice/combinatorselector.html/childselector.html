@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        .parent>p{
+            background-color: rgb(41, 25, 29);
+            color: rgb(119, 3, 132);
+            font-size: 30px;
+            border: 5px dashed rgb(131, 148, 131);
+        }
+        .parent{
+            border: 5px solid rgb(149, 144, 144);
+        }
+        .child{
+            border: 7px dashed rgb(0, 255, 204);
+        }
+        .child>p{
+            background-color: rgb(128, 96, 0);
+            color: rgb(8, 8, 8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Child Selector (>)</h1>
+    <div class="parent">
+        
+        <p>gaurav</p>
+        <p>gaurav</p>
+        <p>gaurav</p>
+        <p>gaurav </p>
+        <div class="child">
+            Child ka child
+        <p>gj</p>
+        <p>gj</p>
+        <p>gj</p>
+        </div>
+        <p>Gaurav jain</p>
+        <p>Gaurav jain</p>
+        <p>Gaurav jain</p>
+    </div>
+</body>
+</html>
