@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display flex</title>
+    <style>
+
+
+     div[class*="box"]
+     {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black; 
+     }
+
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    /* flex-direction: unset; */
+    
+}
+
+
+
+</style>
 </head>
 <body>
-    <div class="box1"></div>
-    <div class="box2"></div>
+    <!--  -->
+    
+    
+    <div class="container">
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
     <div class="box3">box3</div>
+
+    
+
+ 
+
+</div>
 </body>
 </html>
