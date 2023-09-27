@@ -248,5 +248,13 @@ font-size: 20px;
     .Cal{
       color: white;
     }
-
+    .Que{
+      color: white;
+      font-size: 15px;
+      /* margin-top:250px; */
+      margin-bottom: 200px;
+      position: absolute;
+      top: 50px;
+    
+    }
 
