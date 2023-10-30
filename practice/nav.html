@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         .nav{
+        align-items: center;
+         padding: 20px 0px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .nav-menu{
+        font-size: 23px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        right: -22px;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.714);
+        display: none;
+    }
+    .nav-menu p{
+        margin: 40px 100px;
+        /* margin-right: 46px; */
+        padding-right: 32px;
+    }
+    .bar{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+       }
+       
+       header .main-text{
+        text-align: center;
+        margin-top: 45px;
+       }
+       header .main-text h1{
+        padding: 0px 34px;
+        font-size: 55px;
+       }
+       #check:checked ~ .nav-menu{
+        display: block;
+    } 
+   
+    </style>
+</head>
+<body>
+    <header>
+        <div class="Header-Wrapper">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo"><img src="Images/burger-logo.png" width="100%" alt=""></div>
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fa-solid fa-bars bar"></i>
+                    </label>
+                    <div class="nav-menu">
+                        <p>HOME</p>
+                        <p>PRODUCT</p>
+                        <p>PROMO</p>
+                        <p>ABOUT</p>
+                        <p>CONTACT</p>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="main-text">
+                        <h1>
+                            Get Cashback up to 50%
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse consectetur justo eu nunc consequat</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  
+</body>
+</html>

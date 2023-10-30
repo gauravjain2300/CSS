@@ -1,0 +1,27 @@
+@media (max-width: 576px){
+    
+.email{height: 50px;
+    width: 250px;
+    align-items: center;
+    background-color: rgba(22, 22, 22, 0.596);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 90px;
+    }
+    .get{
+        /* padding-top: 50px; */
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .TV{flex-wrap: wrap;
+    padding-left: 0px;}
+    .vide{left: -74px;}
+    /* video{right: -1px;} */
+    video{left: -170px;}
+    
+    
+.ENJOY{
+    
+   padding-top: 0px;
+   }
+}
