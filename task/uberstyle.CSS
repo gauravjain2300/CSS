@@ -1,24 +1,19 @@
-
-
-
-
-*{
-    padding: 0px;
-margin:0px;
-box-sizing:border-box;}
-
-
-.background-image
-{
-background-image: url("../images/uber.1.webp");
-background-repeat: no-repeat;
-/* background-attachment: fixed; */
-background-size: 100% 800px;
-width: 100%;
-height: 800px;
-padding: 40px;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
- /* .images{padding: 30px;   
+
+.background-image {
+  background-image: url("../images/uber.1.webp");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 800px;
+  width: 100%;
+  height: 800px;
+  padding: 40px;
+}
+/* .images{padding: 30px;   
 display: flex;
 margin-left: 60px;
  margin-right:60px} */
@@ -27,66 +22,55 @@ margin-left: 60px;
 padding-left:10px;
 padding-right: 10px;}*/
 
-
-.row{
-    width:33.3%;
-    padding: 5px;
+.row {
+  width: 33.3%;
+  padding: 5px;
 }
 
-.images{display: flex;}
-
-.text{
-    font-size: 30px;
+.images {
+  display: flex;
 }
 
-.near{
-    font-size: 40px;
+.text {
+  font-size: 30px;
 }
 
-
-
-.LOGIN{ margin-right: 50PX;
-margin-left: 1000PX;
-border-radius: 50px;
-height: 50px;
-width: 100px;
-background-color: white;
-color:black; 
-}
-.SIGN-IN{
-background-color: black;
-color:white;
-border-radius: 50px;
-height: 50px;
-width: 100px;
-
+.near {
+  font-size: 40px;
 }
 
-
-
+.LOGIN {
+  margin-right: 50px;
+  margin-left: 1000px;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  color: black;
+}
+.SIGN-IN {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+}
 
 /* .icon{30px;} */
 
-
-.hungry{
-
-
-font-size: 
-40px;
-color: rgb(8, 8, 8);}
-
-
-.uber1{ background-image: url(../images/uber.1.webp);
-    text-align: left;
+.hungry {
+  font-size: 40px;
+  color: rgb(8, 8, 8);
 }
 
+.uber1 {
+  background-image: url(../images/uber.1.webp);
+  text-align: left;
+}
 
-
-
-
-.order{
-padding-top:100px;
-font-size: 50px;
+.order {
+  padding-top: 100px;
+  font-size: 50px;
 }
 
 /* .images 
@@ -96,158 +80,130 @@ font-size: 50px;
     margin-right: 50px;
 }*/
 
-
-.me{
-    display: flex;
-    align-items: center; 
-
+.me {
+  display: flex;
+  align-items: center;
 }
 
-
-.phone{
-
-    font-size: 45px;
- } 
-
- .mobile{ 
-    padding-left: 1100PX;
-     
+.phone {
+  font-size: 45px;
 }
 
-
-
-
-
-
-
-.images > div    {
-    
-padding-left: 20px;
-padding-right: 20px;
-}
-.iframe{height: 200px;
-
-}
-.gaurav{
-    height: 40px;
-    width: 30%;
-}
-.deliver{
-    height: 40px;
-    width:10%
-}
-.button{height: 40px;
-    width: 10%;
-    background-color: black;
-    border-radius: 10px;
-    color: rgba(255, 255, 255, 0.84);
+.mobile {
+  padding-left: 1100px;
 }
 
-
-ul{list-style: none;
-padding: 30px;
-width: 20px;
+.images > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.iframe {
+  height: 200px;
+}
+.gaurav {
+  height: 40px;
+  width: 30%;
+}
+.deliver {
+  height: 40px;
+  width: 10%;
+}
+.button {
+  height: 40px;
+  width: 10%;
+  background-color: black;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.84);
 }
 
-
-
-.unorderlist{ 
-    padding:50px;
-    display: flex;
-    margin-bottom: 30px;
-    padding: 20px;
+ul {
+  list-style: none;
+  padding: 30px;
+  width: 20px;
 }
 
-
-li{
-    margin-bottom: 50px;
-    width: 160px;
+.unorderlist {
+  padding: 50px;
+  display: flex;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
-
-
-    
-.list{
-    width: 20px;
-    margin-right: 350px;
-    
-    
-}
- .countries{
-
-    font-size: 25px;
- } 
-
- .View{ 
-    padding-left: 850PX;
-     
-}
-   
-
-.with{
-        display: flex;
-         align-items: center; 
-    
-    }
-    .uber6{
-        margin:30px;
-    padding:20px;
-    }
-
-
-    .uber3{ 
-        padding-bottom: 50px;
-        margin: 200px;
-     } 
-.pizza{
-    /* width: 20px; */
-    /* margin-right: 120px; */
-    display:flex
+li {
+  margin-bottom: 50px;
+  width: 160px;
 }
 
-.app{
-    width: 20px;
-    margin-right: 200px;}
+.list {
+  width: 20px;
+  margin-right: 323px;
+}
+.countries {
+  font-size: 25px;
+}
 
+.View {
+  padding-left: 850px;
+}
 
-    .pasta {
-        display: flex;
-        padding-top: 70px;
-      }
+.with {
+  display: flex;
+  align-items: center;
+}
+.uber6 {
+  margin: 30px;
+  padding: 20px;
+}
 
+.uber3 {
+  padding-bottom: 50px;
+  margin: 200px;
+}
+.pizza {
+  /* width: 20px; */
+  /* margin-right: 120px; */
+  display: flex;
+}
 
+.app {
+  width: 20px;
+  margin-right: 200px;
+}
 
-      .coin {
-        width: 50%;
-      }
+.pasta {
+  display: flex;
+  padding-top: 70px;
+}
 
-      .bottle{
-        display: inline-block;
-        padding-top: 40px;
-      }
-       .remote{
-        display: inline-block;
-      }
+.coin {
+  width: 50%;
+}
 
-      .bag {
-        padding-left: 40px;
-        padding-top: 0;
-      }
+.bottle {
+  display: inline-block;
+  padding-top: 40px;
+}
+.remote {
+  display: inline-block;
+}
 
-      .photo {
-        /* padding: 40px;
+.bag {
+  padding-left: 40px;
+  padding-top: 0;
+}
+
+.photo {
+  /* padding: 40px;
         margin-top: 0px;
         padding-top: 150px;
         display: flex; */
-      
-        display: inline-block;
-        margin-left: 40px;
-        padding-top: 300px;
-      }
 
-      
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 300px;
+}
+
 .pen {
-    height: 40px;
-    padding-left: 13px;}
-
-
+  height: 40px;
+  padding-left: 13px;
+}
