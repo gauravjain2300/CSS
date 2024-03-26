@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+      }
+      .container {
+        position: relative;
+        padding-top: 50px;
+        /* padding-left: 50px; */
+        margin-left: 100px;
+        /* margin: 0 auto; */
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+      }
+
+      .card {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        background-color: black;
+        transition: all 0.1s ease;
+      }
+      .card:hover {
+        transform: rotate(5deg);
+      }
+
+      .card:nth-of-type(1) {
+        background-color: red;
+      }
+
+      .card:nth-of-type(2) {
+        background-color: blue;
+        left: 150px;
+        z-index: 2px;
+      }
+      .card:nth-of-type(3) {
+        background-color: yellow;
+        left: 320px;
+        z-index: 4px;
+      }
+
+      .card:nth-of-type(4) {
+        background-color: brown;
+        left: 500px;
+        z-index: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </body>
+</html>
